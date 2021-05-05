@@ -2,6 +2,9 @@
     border: 1px solid red;
 } */
 
+*{
+    box-sizing: border-box;
+}
 :root{
     --Dark_cyan: hsl(185, 75%, 39%);
     --Very_dark_desaturated_blue: hsl(229, 23%, 23%);
@@ -42,7 +45,7 @@ body{
 
 .card{
     z-index: 10;
-    width: 355px;
+    width: 320px;
     height: 380px;
     background: white url(./images/bg-pattern-card.svg) no-repeat;
     border-radius: 15px;
@@ -69,6 +72,7 @@ body{
 }
 
 .img-profile{
+    border:5px solid;
     border-color: #fff;
     border-radius: 50%; 
 }
