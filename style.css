@@ -16,10 +16,31 @@
 }
 
 
-body{
+body,h2
+{
     font-family: 'Kumbh Sans', sans-serif;
     font-size: 18px;
     /* 400 y 700 */
+}
+h2 > p {
+    font-weight: 400;
+}
+.datos{
+    height: 100%;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.edad{
+    margin-left: 10px;
+}
+.nombre_edad{
+    margin-bottom: 10px; 
+}
+.name{
+    display: flex;
 }
 .bg-pattern-top{
     position: absolute;
@@ -71,6 +92,7 @@ body{
     
     
     position: relative;
+    top: 17%;
 }
 
 .img-profile{
@@ -82,6 +104,9 @@ body{
 
 .card_centro{
     margin-top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
 
 /* #nombre{
