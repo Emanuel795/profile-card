@@ -17,22 +17,40 @@ body{
     /* 400 y 700 */
 }
 .bg-pattern-top{
-    top: 100%;
-
+    position: absolute;
+    top: -70%;
+    right: 50%;
+    z-index: 9;
+}
+.bg-pattern-bottom{
+    position: absolute;
+    bottom: -85%;
+    left: 50%;
+    z-index: 9;
 }
 
 .container{
+    position: relative;
     background-color: var(--Dark_cyan);
     height: 100vh;
     /* width: 100vh; */
     overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .card{
-    width: 350px;
-    background-color: white;
-    border-radius: 10px 10px 10px 10px;
-
+    z-index: 10;
+    width: 355px;
+    height: 380px;
+    background: white url(./images/bg-pattern-card.svg) no-repeat;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
 }
 
 .card_header{
@@ -45,9 +63,14 @@ body{
 }
 
 .image-profile{
-    border: 5px solid white;
-    border-radius: 50%; 
+    
+    
     position: relative;
+}
+
+.img-profile{
+    border-color: #fff;
+    border-radius: 50%; 
 }
 
 
@@ -70,6 +93,13 @@ body{
 }
 .stat{
     font-weight: 400;
+}
+
+.card-stats{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
 
 
