@@ -4,6 +4,8 @@
 
 *{
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 :root{
     --Dark_cyan: hsl(185, 75%, 39%);
