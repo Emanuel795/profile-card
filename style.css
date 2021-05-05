@@ -1,0 +1,76 @@
+/* *{
+    border: 1px solid red;
+} */
+
+:root{
+    --Dark_cyan: hsl(185, 75%, 39%);
+    --Very_dark_desaturated_blue: hsl(229, 23%, 23%);
+    --Dark_grayish_blue: hsl(227, 10%, 46%);
+
+    --Dark_gray: hsl(0, 0%, 59%);
+}
+
+
+body{
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 18px;
+    /* 400 y 700 */
+}
+.bg-pattern-top{
+    top: 100%;
+
+}
+
+.container{
+    background-color: var(--Dark_cyan);
+    height: 100vh;
+    /* width: 100vh; */
+    overflow: hidden;
+}
+
+.card{
+    width: 350px;
+    background-color: white;
+    border-radius: 10px 10px 10px 10px;
+
+}
+
+.card_header{
+ border-radius: 15px 15px 0 0 ;   
+}
+
+#formas_header{
+    border-radius: 10px 10px 0 0;
+    align-items: center;
+}
+
+.image-profile{
+    border: 5px solid white;
+    border-radius: 50%; 
+    position: relative;
+}
+
+
+.card_centro{
+    margin-top: 0;
+}
+
+#nombre{
+    font-weight: 700;
+}
+#edad{
+    font-weight: 700;
+}
+
+#pais{
+    font-weight: 400;
+}
+.number{
+    font-weight: 700;
+}
+.stat{
+    font-weight: 400;
+}
+
+
+
